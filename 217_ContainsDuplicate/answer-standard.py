@@ -4,7 +4,7 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         if not nums:
             return False
-        # set class in python (hashmap without key)
+        # set class in python (hashmap without value)
         seen = set()
         for num in nums:
             if num in seen:
