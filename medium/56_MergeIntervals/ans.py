@@ -11,5 +11,10 @@ class Solution:
                 ans.append(interval)
             else: # interval[0] <= ans[-1][1]:
                 ans[-1][1] = max(ans[-1][1], interval[1])
+                ### If wanna improve performace, use code below instead
+                """
+                if interval[1] > ans[-1][1]:
+                    ans[-1][1] = interval[1]
+                """
 
         return ans
