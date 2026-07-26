@@ -1,4 +1,4 @@
-### LeetCode 148: O(nlogn)time, O(n)space for call stack; using bottom-up approach to solve
+### LeetCode 148: O(nlogn)time, O(1)space including call stack; using bottom-up approach to solve
 
 # Definition for singly-linked list.
 # class ListNode:
